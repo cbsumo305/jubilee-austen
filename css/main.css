@@ -1,12 +1,12 @@
 /******fonts******/
 @font-face {
     font-family: Bohemian Soul;
-    src: url('/fonts/Bohemian Soul.OTF') format('opentype');
+    src: url('/fonts/bohemian-soul.OTF') format('opentype');
 }
 
 @font-face {
     font-family: Champagne-_-Limousines;
-    src: url('/fonts/Champagne-_-Limousines.woff') format('woff');
+    src: url('/fonts/champagne-limousines.woff') format('woff');
 }
 
 /******base styles******/
