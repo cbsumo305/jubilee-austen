@@ -1,0 +1,194 @@
+/******fonts******/
+@font-face {
+    font-family: Bohemian Soul;
+    src: url('/fonts/Bohemian Soul.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Champagne-_-Limousines;
+    src: url('/fonts/Champagne-_-Limousines.woff') format('woff');
+}
+
+/******base styles******/
+body {
+    color: #2b2b2b;
+    font-family: Champagne-_-Limousines;
+}
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 398px;
+}
+
+/******header section******/
+header {
+    height: 800px;
+    background: url(/img/full-background.png) no-repeat center;
+    background-size: cover;
+}
+
+header h1 {
+    /*color: #bbc085;*/ /*yellowish*/
+    color: #a9a18a;
+    font-family: 'Bohemian Soul';
+    font-size: 30px;
+    padding: 65px 0 65px 25px;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    /* color: #828282; */
+    /*color: #e5989b;*/
+    color: #cbc0a2;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header h2 {
+    clear: both;
+    color: #bebebe; /*grey*/
+    /* color: #b5838d; */
+    font-family: Bohemian Soul;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0 20px 25px;
+    width: 975px;
+}
+
+header h2 span {
+    /*color: #2b2b2b;*/
+    /*color: #b5838d;*/
+    color: #6d6875;
+}
+
+/******about section******/
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    color: #a9a18a;
+    font-family: 'Bohemian Soul', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+    color: #7f7f7f;
+    font-size: 21px;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/******work section******/
+#work {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-family: Bohemian Soul;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 auto;
+    width: 250px;
+}
+
+#work p {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+
+/******contact section******/
+#contact {
+    background-color: #ebebeb;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    border: 12px solid #ffffff;
+    margin-left: 25px;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: Bohemian Soul;
+    font-size: 36px;
+    line-height:44px;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
