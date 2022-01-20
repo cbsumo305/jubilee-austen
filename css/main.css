@@ -1,12 +1,12 @@
 /******fonts******/
 @font-face {
     font-family: Bohemian Soul;
-    src: url('/fonts/Bohemian Soul.otf') format('opentype');
+    src: url('../fonts/Bohemian Soul.otf') format('opentype');
 }
 
 @font-face {
     font-family: Champagne-_-Limousines;
-    src: url('/fonts/Champagne-_-Limousines.woff') format('woff');
+    src: url('../fonts/Champagne-_-Limousines.woff') format('woff');
 }
 
 /******base styles******/
@@ -34,7 +34,7 @@ body {
 /******header section******/
 header {
     height: 800px;
-    background: url(/img/full-background.png) no-repeat center;
+    background: url(../img/full-background.png) no-repeat center;
     background-size: cover;
 }
 
